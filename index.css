@@ -1,0 +1,64 @@
+.background-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-cont {
+  width: 50%;
+}
+.card-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #0b69ff;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.card-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #2dca73;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffb800;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.card-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ff0b37;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.notification {
+  font-family: "Roboto";
+  color: white;
+  padding-left: 10px;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 50px;
+  color: #0f172a;
+}
+@media (max-width: 768px) {
+  .card-cont {
+    width: 30%;
+  }
+}
